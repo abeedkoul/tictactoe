@@ -1,0 +1,52 @@
+body{
+    background-color:darkgrey;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gameboard{
+    border: 3px solid black;
+    width: 618px;
+    height: 618px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cells{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color:crimson;
+}
+button{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    background-color: darksalmon;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.counter{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+.display{
+    
+    width: 100px;
+}
